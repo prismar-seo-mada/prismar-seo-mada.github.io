@@ -1,0 +1,59 @@
+#logo{
+	animation-name:animtwo;
+  animation-duration:1.5s;
+animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+animation-delay: 1s;
+animation-delay: 0.15s;
+}
+
+#menu{
+	animation-name:anim;
+  animation-duration:1.5s;
+animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+animation-delay: 0.2s;
+
+}
+ #contain{
+	animation-name:animtwo;
+  animation-duration:1.5s;
+animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+animation-delay: 1s;
+animation-delay: 0.5s;
+
+}
+#seo{
+	animation-name:anim;
+  animation-duration:1.5s;
+animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+#applicationWeb{
+animation-name:anim;
+  animation-duration:1.5s;
+animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+}
+#automatisation{
+	animation-name:anim;
+  animation-duration:1s;
+
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+
+
+}
+
+
+@keyframes anim{
+ 0%{opacity:0;transform: translateY(-50px);}
+  100%{  opacity:1;}
+}
+  @keyframes animtwo{
+ 0%{opacity:0;transform: translateX(-50px);}
+  100%{  opacity:1;}
+}
