@@ -5,7 +5,7 @@ let b=document.getElementById("menu")
 
 
 for //(let aa in a)
-(i=1;i<a.length;i++)	
+(i=0;i<a.length;i++)	
 {
 	 w2=document.createElement('li');
 	 w3=document.createElement('a')
@@ -28,6 +28,7 @@ for (i=1;i<a.length-1;i++){
 		w5=document.createElement('div')
 		nomId=a[i]
 		w5.setAttribute('id',nomId)
+
 		w6=document.getElementById("contenir")
 		w6.appendChild(w5)
 		w6.className="row justify-content-between mx-3"
@@ -37,10 +38,13 @@ for (i=1;i<a.length-1;i++){
 
 }
 for (i=1;i<a.length-1;i++){
-	    w7=document.getElementById(a[i])
-		text=["","<h2>Réferencement naturelle</h2><br><p>Vous cherchez à améliorer votre visibilité sur Google?En tant que consultant SEO à Madagascar ,j'aide les entreprises locales et internationales à atteindre une bonne position sur les moteurs de recherche grâce à un référencement naturel efficace et une strategie SEO sur mesure.</p>","<h2>Application et devellopement web</h2><p></p>","<h2>Automatisation avec python</h2><p></p>"
-		w7.className="col-12 col-lg-3 mx-3 "
-
+	    
+		text=["","<h2>Réferencement naturelle</h2><br><p>Vous cherchez à améliorer votre <strong>visibilité sur Google</strong>?<br>En tant que <strong>consultant SEO à Madagascar</strong> ,j'aide les entreprises locales et internationales à atteindre <strong>une bonne position sur les moteurs de recherche</strong> grâce à <strong>un référencement naturel efficace</strong> et <strong>une strategie SEO sur mesure</strong>.</p>
+		","<h2>Application et devellopement web</h2><p>Nous concevons des <strong>sites internet</strong> et <strong> applications web  modernes et responsives </strong>, parfaits pour présenter votre entreprise, locale ou international.<br><ul><li>Site moderne et designer avec<strong> html/css/javascript</strong></li><li><strong>Site wordpress</strong></li><li>Site avec <strong> base de données </strong> et <strong>back-end</strong></li><li><strong>Application web </strong>ou strong>integration front-end</strong></li><li> Dev web utilisant framework symphony</li><li><strong>Dev web </strong>avec un <strong>framework</strong> ou <strong>bibliotheque python</strong></li></p>","<h2>Automatisation avec <strong>python</strong></h2><p></p>"]
+		w7=document.getElementById(a[i])
+		w7.className="col-12 col-lg-3 mx-3 text-justify"
+		w7.innerHTML=text[i] // pas w7.innerHTML(text[i])
+		text[i].className="text-jystify"
 		
 
 
