@@ -75,24 +75,28 @@ h1{
 	font-size: 400%;
 	font-weight: bolder;
 	text-align: center;
-	
+	line-height: 100px;
+
 	font-family:Giveny;
+	
 }
 h2{
 	text-align: center;
 	text-transform: uppercase;
-
-	font-family:Giveny;
+    
+	
 }
 h3{
-	
+	text-align: center;
 	 text-transform:uppercase;
-    font-size: 20px;
+    font-size: 16px;color:#dea807;
 }
 h6{
 	font-weight: bolder;
 }
-
+p{
+	 font-size: 14px
+}
 #footer{
 
 	height: 400px;

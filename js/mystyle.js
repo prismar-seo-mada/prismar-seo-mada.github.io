@@ -40,6 +40,18 @@ for (i=1;i<a.length-1;i++){
 
 
 }
+
+c1=document.getElementById("textappel")
+
+	c2=document.createElement('h1')
+	c2.className="mt-3 text-warning"
+
+c2.innerHTML="Dev WEB<br>/SEO<br>/DEV PYTHON"
+c1.appendChild(c2)
+
+
+
+
 a=["accueil","seo","applicationWeb","automatisation","contact"]
 
 for (i=1;i<a.length-1;i++){
