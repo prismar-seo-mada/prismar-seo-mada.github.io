@@ -14,8 +14,8 @@ overflow-x: hidden;
 }
 body{
 	
-	background-color:#ede8e4;
 	
+	background-color: #ede8e4 !important;
 	
 }
 header{
@@ -72,7 +72,7 @@ nav span{
 
 h1{
 	text-transform: uppercase;
-	font-size: 400%;
+	font-size: 400% !important;
 	font-weight: bolder;
 	text-align: center;
 	line-height: 100px;
@@ -89,7 +89,8 @@ h2{
 h3{
 	text-align: center;
 	 text-transform:uppercase;
-    font-size: 16px;color:#dea807;
+    font-size: 16px;
+    color:#dea807 !important;
 }
 h6{
 	font-weight: bolder;
